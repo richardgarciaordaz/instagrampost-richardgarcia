@@ -1,0 +1,86 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilo para el contenedor del post */
+.post {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el encabezado del post */
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Para los íconos y el nombre */
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilo para el ícono de HTML5 */
+.post-header .fa-html5 {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.name-location {
+    display: flex;
+    flex-direction: column; /* Apila el nombre y la ubicación verticalmente */
+    margin-right: 470px; 
+}
+
+/* Estilo para el nombre */
+.name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Estilo para la ubicación */
+.location {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Estilo para los íconos de Font Awesome */
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilo para los íconos izquierdos */
+.left-icons {
+    display: flex;
+    margin-right: 10px;
+    
+}
+
+/* Estilo para los íconos derechos */
+.right-icons {
+    display: flex;
+}
+
+/* Estilo para la imagen del post */
+.post-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para el cuerpo del post */
+.post-body {
+    padding: 10px;
+}
+
+/* Estilo para los párrafos del cuerpo */
+.post-body p {
+    margin: 5px 0;
+}
